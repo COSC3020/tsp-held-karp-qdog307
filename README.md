@@ -46,3 +46,11 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+For the total time complexity is O(n * 2^n), this comes from the recursive calls that are being made n, and the subsets of the cities of 2^n. The memory depends on the depth of the recursion. The most being n so this complexity is O(n). 
+
+## Sources 
+
+For this it took awhile from implemanting the psudeo code. I wanted to try the memoization but decided against it do to my poor planning and time management. The parts of the code I had chatGPT help with were setting my distances to infinity  so that it will be changed, and then the last for loop in code.js as I was running into issues. 
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
